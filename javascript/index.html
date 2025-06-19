@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>See 'N' Say Storymaker App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="app-container">
+    <h1> See 'N' Say Storymaker</h1>
+
+    <div class="theme-selector">
+      <label for="theme">Choose a Theme:</label>
+      <select id="theme">
+        <option value="pirate">Pirate Adventure</option>
+        <option value="space">Space Exploration</option>
+        <option value="fairy">Fairy Tale Magic</option>
+        <option value="safari">Animal Safari</option>
+        <option value="stem">STEM Education</option>
+      </select>
+    </div>
+
+    <section class="controls">
+      <div class="btn-group">
+        <button data-part="who">Who?</button>
+        <button data-part="what">What?</button>
+        <button data-part="where">Where?</button>
+        <button data-part="when">When?</button>
+      </div>
+    </section>
+
+    <section class="output">
+      <p id="story-text">Start building your story by clicking a button!</p>
+      <button id="btn-speak">Speak Story</button>
+    </section>
+	<section class="extra-controls">
+	  <button id="btn-surprise">Surprise Me</button>
+	  <button id="btn-reset">Reset</button>
+  </main>
+
+</body>
+</html>
